@@ -8377,6 +8377,13 @@ typography-normalize@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
 
+typography-theme-doelger@^0.15.11:
+  version "0.15.11"
+  resolved "https://registry.yarnpkg.com/typography-theme-doelger/-/typography-theme-doelger-0.15.11.tgz#551e861bec06d3dd6cfe12c2326e1c3be36c3ec6"
+  dependencies:
+    gray-percentage "^2.0.0"
+    typography-breakpoint-constants "^0.15.10"
+
 typography-theme-moraga@^0.15.10:
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/typography-theme-moraga/-/typography-theme-moraga-0.15.10.tgz#d8e64a89132f71ec81550d72556aa6a1a75102f9"
