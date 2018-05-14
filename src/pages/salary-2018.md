@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 薪酬体系(2018 版)
+title: 薪酬体系（2018 版）
 lang: zh
 category: management
 ---
