@@ -1,11 +1,15 @@
 ---
 layout: post
-title: 期权激励计划
+title: 期权激励计划（2014 版）
 lang: zh
 category: management
 ---
 
 > 2% of 0 is 0.  --- Mark Cranney
+
+## 本文档已过期
+
+我们已经制定了[新版的期权激励计划](/equity-2018/)，本文档仅保留作为历史参考。
 
 ## 简介
 
