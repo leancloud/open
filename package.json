@@ -10,7 +10,6 @@
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.35",
     "gatsby-transformer-remark": "^1.7.41",
-    "han-css": "^3.3.0",
     "react-helmet": "^5.2.0",
     "typography-theme-moraga": "^0.15.10"
   },
