@@ -23,9 +23,9 @@ category: management
 
 > (Function &times; Experience + Impact) / Risk
 
-其中 Function、Experience、Impact 的含义与[薪酬体系](salary.html)一致，但具体数值不同。Risk 代表目前公司面临的风险，在公司发展的不同阶段取值不同，在正常的发展过程中是递增的（代表风险的降低）。
+其中 Function、Experience、Impact 的含义与[薪酬体系](/salary/)一致，但具体数值不同。Risk 代表目前公司面临的风险，在公司发展的不同阶段取值不同，在正常的发展过程中是递增的（代表风险的降低）。
 
-每个同事在入职的第二个月底前可以选择放弃薪酬中的 Choice 部分（详见[薪酬体系](salary.html)）交换 20% 的更多期权。
+每个同事在入职的第二个月底前可以选择放弃薪酬中的 Choice 部分（详见[薪酬体系](/salary/)）交换 20% 的更多期权。
 
 ## Vesting Schedule
 
