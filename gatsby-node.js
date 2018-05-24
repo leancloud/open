@@ -4,25 +4,25 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
- const path = require(`path`);
+const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-    const { createNodeField } = boundActionCreators;
-    if (node.internal.type === `MarkdownRemark`) {
-        const slug = createFilePath({ node, getNode, basePath: 'pages' });
-        createNodeField({
-            node,
-            name: `slug`,
-            value: slug,
-        });
-    }
+  const { createNodeField } = boundActionCreators;
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: 'pages' });
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    });
+  }
 };
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
-    const { createPage } = boundActionCreators
-    return new Promise((resolve, reject) => {
-      graphql(`
+  const { createPage } = boundActionCreators
+  return new Promise((resolve, reject) => {
+    graphql(`
         {
           allMarkdownRemark {
             edges {
@@ -47,5 +47,5 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         })
         resolve()
       })
-    })
-  };
+  })
+};
