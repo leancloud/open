@@ -17,11 +17,12 @@ const Header = ({ siteTitle }) => (
     >
       <h1 style={{
         margin: 0,
-        fontWeight: 'normal'
       }}>
         <Link to="/" style={{
             color: '#000',
             textDecoration: 'none',
+            fontWeight: 'bold',
+            fontSize: '150%'
           }}
         >
           {siteTitle}
