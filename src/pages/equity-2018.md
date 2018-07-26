@@ -3,6 +3,7 @@ layout: post
 title: 期权激励计划（2018 版）
 lang: zh
 category: management
+pageOrder: 8
 ---
 
 > 2% of 0 is 0.  --- Mark Cranney

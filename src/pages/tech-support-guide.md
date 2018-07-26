@@ -3,6 +3,7 @@ layout: post
 title: 技术支持标准
 category: guide
 lang: zh
+pageOrder: 10
 ---
 
 ## 概述

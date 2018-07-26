@@ -3,6 +3,7 @@ layout: post
 title: 代码分支管理指南
 category: guide
 lang: zh
+pageOrder: 10
 ---
 
 ## 介绍

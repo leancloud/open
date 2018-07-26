@@ -3,6 +3,7 @@ layout: post
 title: 文化和价值
 lang: zh
 category: management
+pageOrder: 5
 ---
 
 ## 我们的使命
