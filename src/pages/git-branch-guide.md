@@ -45,5 +45,3 @@ Tag: 对应每个发布版本的 tag。SDK 和应用程序的 tag 遵照 `<major
 ## 其他
 
 并不是每个 bug 都有专门发布 bugfix 版的必要，对于不紧急的 bug，可以在 `master` 里 fix 后随下一个版本发布。
-
-在一个官方 repo 下只应该有以上说的 branch 和 tag，在开发过程中使用到的 feature branch 等请都放在个人的 fork，一律通过向 `master` 发 pull request 的方式给官方 repo 提交代码。
