@@ -21,8 +21,15 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' }
+            {
+              name: 'description',
+              content:
+                'LeanCloud 开放的各类文档信息，希望它们可以为他人参考和借鉴，发挥最大的价值。'
+            },
+            {
+              name: 'keywords',
+              content: 'LeanCloud, 开放资源, 风格指南, 透明薪酬'
+            }
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} />
