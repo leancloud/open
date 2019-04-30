@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/layout';
 import favicon from '../images/favicon.png';
+import styles from './article.module.css';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
@@ -30,7 +31,7 @@ export default ({ data }) => {
           }
         ]}
       />
-      <div>
+      <div className={styles.article}>
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
