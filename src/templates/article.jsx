@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 
 import Layout from '../components/layout';
+import favicon from '../images/favicon.png';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
@@ -22,6 +23,10 @@ export default ({ data }) => {
           {
             name: 'og:description',
             content: data.site.siteMetadata.title
+          },
+          {
+            name: 'og:image',
+            content: data.site.siteMetadata.url + favicon
           }
         ]}
       />
@@ -38,6 +43,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        url
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
