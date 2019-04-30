@@ -81,3 +81,7 @@ error.
 ### 注解
 
 注解与详情以一个空行隔开，通常是一些与自动化工具集成需要的关键词和信息。比如可以[关闭 GitHub issue](https://help.github.com/en/articles/closing-issues-using-keywords)。GitHub 支持多个作用相同的关键词，我们统一用 `close`，并且使用较短的形式 `close` 而不是 `closed` 或 `closes`。
+
+### 其他注意事项
+
+标题和详情中出现的描述当前 commit 的动词统一使用一般现在时。
