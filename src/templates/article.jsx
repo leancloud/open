@@ -11,7 +11,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <Helmet
-        title={data.site.siteMetadata.title + ': ' + post.frontmatter.title}
+        title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`}
         meta={[
           {
             name: 'twitter:card',
