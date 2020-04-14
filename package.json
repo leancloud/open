@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "open-leancloud",
+  "description": "LeanCloud open resources",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "LeanCloud <support@leancloud.rocks>",
   "dependencies": {
     "gatsby": "^2.20.18",
     "gatsby-link": "^2.1.1",
@@ -24,8 +24,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "node_modules/.bin/gatsby build",
-    "develop": "node_modules/.bin/gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
