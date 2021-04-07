@@ -6,6 +6,10 @@ category: management
 pageOrder: 7
 ---
 
+## 本文档已过期
+
+由于 LeanCloud 在 2021 年 3 月[被 TapTap 收购](https://leancloudblog.com/new-chapter/)，薪酬标准也已和母公司对齐。以下标准已经停止执行，仅供参考。
+
 ## 更新说明
 
 我们的薪酬制度已经执行了将近四年时间，期间只做过一些小的修订。我们根据这几年里执行的经验和市场的变化，给薪酬制度做一次大的更新，主要修改包括：
