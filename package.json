@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "LeanCloud <support@leancloud.rocks>",
   "dependencies": {
-    "gatsby": "^2.20.18",
+    "gatsby": "^5.5.0",
     "gatsby-link": "^2.1.1",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-analytics": "^2.0.20",
